@@ -6,5 +6,5 @@ import tn.sesame.rhmanagementbackend.Entities.User;
 
 import java.util.UUID;
 @Repository
-public interface EmployeeRepository extends JpaRepository<User, UUID> {
+public interface EmbeddingModelRepository extends JpaRepository<User, UUID> {
 }
